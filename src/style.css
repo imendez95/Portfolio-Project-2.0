@@ -6,29 +6,43 @@ body {
   background-position: center;
 }
 h1 {
-  font-size: 26px;
+  font-size: 32px;
   color: rgb(230, 28, 129);
   font-weight: 900;
 }
 h2 {
-  font-size: 23px;
+  font-size: 25px;
   font-weight: 700;
   color: rgb(80, 12, 46);
   font-weight: bolder;
-  background-color: aqua;
+  background-color: rgb(241, 195, 228, 0.3);
 }
 h3 {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 700;
 }
 .myTittle {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .homepage {
-  padding: 30px 0;
+  padding: 24px 0;
 }
 .page-one-pic {
-  max-width: 70px;
+  max-width: 80px;
+}
+.instructions-homepage {
+  opacity: 0.6;
+  font-size: 16px;
+}
+.instructions-homepage:hover {
+  cursor: default;
+}
+.button-links {
+  opacity: 0.6;
+}
+.coded-by-info {
+  margin-top: 105px;
+  font-size: 10px;
 }
