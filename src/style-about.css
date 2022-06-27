@@ -1,18 +1,30 @@
 h1 {
-  font-size: 44px;
-  text-decoration: solid underline crimson;
-  font-weight: 700;
-  color: crimson;
-  margin-top: -12px;
+  font-size: 54px;
+  text-decoration: solid underline rgb(231, 120, 142);
+  font-weight: 800;
+  color: rgb(231, 120, 142);
+  margin-top: 15px;
+}
+p {
+  text-align: center;
+  margin: 30px;
+  padding: 40px;
 }
 .top-bkgnd-img {
   text-align: center;
   background-image: URL("../images/2nd-page-bckgnd.png");
-  background-size: 60% 80%;
+  background-size: 55% 75%;
   background-repeat: no-repeat;
   background-position: top;
+  margin-top: 40px;
   padding: 90px;
 }
 .second-page-pic {
-  max-width: 90px;
+  max-width: 95px;
+}
+.bg-info {
+  background-color: rgba(207, 44, 161, 0.2) !important;
+}
+.about-section {
+  background: rgb(176, 121, 227);
 }
