@@ -1,6 +1,34 @@
 body {
   text-align: center;
+  background-image: URL("../images/portfolio-flower-pic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 h1 {
+  font-size: 26px;
+  color: rgb(230, 28, 129);
+  font-weight: 900;
+}
+h2 {
+  font-size: 23px;
+  font-weight: 700;
+  color: rgb(80, 12, 46);
+  font-weight: bolder;
   background-color: aqua;
+}
+h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.myTittle {
+  font-size: 12px;
+  font-weight: 800;
+  opacity: 0.6;
+}
+.homepage {
+  padding: 30px 0;
+}
+.page-one-pic {
+  max-width: 70px;
 }
