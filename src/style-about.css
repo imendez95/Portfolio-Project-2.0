@@ -1,0 +1,18 @@
+h1 {
+  font-size: 44px;
+  text-decoration: solid underline crimson;
+  font-weight: 700;
+  color: crimson;
+  margin-top: -40px;
+}
+.top-bkgnd-img {
+  text-align: center;
+  background-image: URL("../images/2nd-page-bckgnd.png");
+  background-size: 60% 80%;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 90px;
+}
+.second-page-pic {
+  max-width: 90px;
+}
