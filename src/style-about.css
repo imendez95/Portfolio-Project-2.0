@@ -1,5 +1,8 @@
+body {
+  background-color: rgb(247, 242, 248);
+}
 h1 {
-  font-size: 54px;
+  font-size: 44px;
   text-decoration: solid underline rgb(231, 120, 142);
   font-weight: 800;
   color: rgb(231, 120, 142);
@@ -7,8 +10,10 @@ h1 {
 }
 p {
   text-align: center;
-  margin: 30px;
-  padding: 40px;
+  margin: 30px 20px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
 }
 .top-bkgnd-img {
   text-align: center;
@@ -22,9 +27,31 @@ p {
 .second-page-pic {
   max-width: 95px;
 }
+.middle-bkgd-pic {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 60px;
+}
 .bg-info {
-  background-color: rgba(207, 44, 161, 0.2) !important;
+  background-color: rgb(245, 200, 233) !important;
+}
+.bg-success {
+  background-color: rgba(207, 44, 161, 0.1) !important;
 }
 .about-section {
-  background: rgb(176, 121, 227);
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.emoji {
+  font-size: 32px;
+}
+.project-ideas-section {
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: 500;
+}
+.coded-by-info {
+  font-size: 12px;
 }
