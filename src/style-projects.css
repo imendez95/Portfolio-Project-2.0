@@ -7,8 +7,8 @@
 body {
   text-align: center;
   background-image: URL("../images/3rd-page-bckgnd.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat-y;
   background-position: top;
   background-color: #f4cfea5a;
 }
@@ -61,6 +61,10 @@ h2 {
   font-weight: 500;
 }
 @media (max-width: 576px) {
+  body {
+    background-size: contain;
+    background-repeat: repeat-y;
+  }
   h1 {
     font-size: 38px;
   }

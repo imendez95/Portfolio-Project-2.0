@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+.project-ideas-section {
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: 800;
+}
+.bg-danger {
+  background-color: rgb(254, 116, 148) !important;
+}
+@media (max-width: 576px) {
+  img {
+    max-width: 300px;
+  }
+}
