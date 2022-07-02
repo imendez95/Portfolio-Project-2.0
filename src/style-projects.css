@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #0dcaf0;
+  --secondary-color: #f0d6ee;
+  --third-color: #b0e0f7;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  text-align: center;
+  background-image: URL("../images/3rd-page-bckgnd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #f4cfea5a;
+}
+h1 {
+  font-size: 52px;
+  text-decoration: solid underline rgb(231, 120, 142);
+  font-weight: 800;
+  color: rgb(231, 120, 142);
+  margin-top: 115px;
+  margin-bottom: 105px;
+}
+h2 {
+  font-size: 26px;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 60px;
+  color: rgb(68, 28, 127);
+}
+.top {
+  font-size: 32px;
+  font-weight: 700;
+}
+.bottom {
+  padding-bottom: 50px;
+  font-weight: 500;
+}
+.border {
+  padding-left: 5px;
+  background-color: aqua;
+  text-align: center;
+}
+.yoga {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 28px;
+}
+.btn {
+  box-shadow: var(--box-shadow);
+  margin-top: -15px;
+  padding: 13px;
+  font-weight: 400;
+}
+.project-ideas-section {
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: 500;
+}
+.coded-by-info {
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    margin-bottom: -50px;
+  }
+  .second-half h2 {
+    text-align: center;
+  }
+  .dont-show {
+    display: none;
+  }
+  .yoga {
+    font-size: 24px;
+  }
+  .top {
+    font-size: 26px;
+  }
+  .bottom {
+    font-size: 22px;
+  }
+}

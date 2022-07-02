@@ -2,7 +2,7 @@ body {
   background-color: rgb(247, 242, 248);
 }
 h1 {
-  font-size: 44px;
+  font-size: 52px;
   text-decoration: solid underline rgb(231, 120, 142);
   font-weight: 800;
   color: rgb(231, 120, 142);
@@ -46,6 +46,7 @@ p {
 }
 .emoji {
   font-size: 32px;
+  text-align: center;
 }
 .project-ideas-section {
   margin-bottom: 15px;
@@ -53,5 +54,18 @@ p {
   font-weight: 500;
 }
 .coded-by-info {
-  font-size: 12px;
+  font-size: 14px;
+}
+@media (max-width: 576px) {
+  h1 {
+    margin-top: -55px;
+  }
+  .top-bkgnd-img {
+    text-align: center;
+    background-image: URL("../images/2nd-page-bckgnd.png");
+    background-size: 95% 55%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 70px;
+  }
 }
