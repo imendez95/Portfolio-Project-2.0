@@ -10,8 +10,9 @@ body {
   background-size: contain;
   background-repeat: repeat-y;
   background-position: top;
-  background-color: #f4cfea5a;
+  background-color: #fd9cee96;
 }
+
 h1 {
   font-size: 52px;
   text-decoration: solid underline rgb(231, 120, 142);
@@ -27,6 +28,11 @@ h2 {
   margin-top: 60px;
   color: rgb(68, 28, 127);
 }
+p {
+  background-color: rgb(201, 174, 250);
+  font-weight: 700;
+}
+
 .top {
   font-size: 32px;
   font-weight: 700;

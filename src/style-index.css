@@ -6,8 +6,8 @@ body {
   background-position: center;
 }
 h1 {
-  font-size: 42px;
-  color: rgb(230, 28, 129);
+  font-size: 52px;
+  color: rgba(252, 0, 126, 0.697);
   font-weight: 900;
 }
 h2 {
@@ -21,6 +21,28 @@ h3 {
   font-size: 28px;
   font-weight: 700;
 }
+.button-links a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+  transition: all 250ms ease-in-out;
+}
+.about-me-link,
+.projects-link,
+.contact-me-link {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgba(220, 7, 7, 0.694);
+}
+.button-links {
+  opacity: 0.8;
+}
+.button-links a:hover {
+  font-size: 26px;
+}
+.btn-danger:hover {
+  background-color: rgb(199, 45, 245) !important;
+}
 .myTittle {
   font-size: 22px;
   font-weight: 800;
@@ -33,22 +55,15 @@ h3 {
   max-width: 90px;
 }
 .instructions-homepage {
-  opacity: 0.6;
-  font-size: 19 px;
+  opacity: 0.8;
+  font-size: 19px;
+  font-weight: 700;
 }
 .instructions-homepage:hover {
   cursor: default;
 }
-.button-links {
-  opacity: 0.6;
-}
-.about-me-link,
-.projects-link,
-.contact-me-link {
-  font-size: 22px;
-}
 
 .coded-by-info {
   margin-top: 40px;
-  font-size: 12px;
+  font-size: 14px;
 }
